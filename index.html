@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAGON Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>WAGON</h1>
+        <h1>Simulador de Tienda</h1>
+        <form id="formularioArticulo" class="form">
+            <div class="form-group">
+                <label for="nombre">Nombre del artículo</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="cantidad">Cantidad</label>
+                <input type="number" id="cantidad" name="cantidad" required>
+            </div>
+            <div class="form-group">
+                <label for="precio">Precio por unidad</label>
+                <input type="number" id="precio" name="precio" step="0.01" required>
+            </div>
+            <button type="submit" class="btn">Agregar artículo</button>
+        </form>
+        <div id="resultados" class="resultados"></div>
+        <button id="calcularTotal" class="btn">Calcular Total</button>
+        <div id="total" class="total"></div>
+        <button id="cargarDatos" class="btn">Cargar articulos guardados</button>
+        <button id="eliminarArticulos" class="btn3">Eliminar articulos</button>
+        <div id="mensajeEliminado" class="mensaje-oculto">Prroductos eliminados</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

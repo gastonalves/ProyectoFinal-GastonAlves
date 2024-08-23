@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "Mcciato",
+        "cantidad": 1,
+        "precio": 2200.0
+    },
+    {
+        "nombre": "Tostados",
+        "cantidad": 4,
+        "precio": 3500
+    },
+    {
+        "nombre": "Lagrima",
+        "cantidad": 2,
+        "precio": 1800.0
+    },
+    {
+        "nombre": "Submarino",
+        "cantidad": 1,
+        "precio": 2000.0
+    }
+]
